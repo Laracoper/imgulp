@@ -1,0 +1,37 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(1, 63, 116);
+    
+}
+
+.main {
+    padding: 0px 0 0 0;
+    flex: 1 0 100%;
+    
+}
+
+[class*="__container"] {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    padding: 80px 0 0 0;    
+    font-family: Arial, Helvetica, sans-serif;    
+    color: aliceblue;
+    @media (max-width:767.98px) {
+        padding: 60px 0 0 0; 
+    }    
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+body.lock .main, body.lock .footer {
+    filter: blur(3px);
+}

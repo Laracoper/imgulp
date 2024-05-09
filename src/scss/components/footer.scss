@@ -1,0 +1,33 @@
+.footer {
+    background-color: #003651;
+    color: antiquewhite;
+    padding: 10px 0;
+    a {
+        color: aliceblue;
+    }
+
+    &__container {
+        display: flex;
+    }
+
+    &__col {
+        flex: 1 1 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &_l {
+           
+        }
+
+        &_r {
+            
+        }
+    }
+
+    &__list {
+    }
+
+    &__link {
+    }
+}
